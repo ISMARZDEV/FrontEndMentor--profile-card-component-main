@@ -1,5 +1,21 @@
 
 
-@import url(/src/assets/css/components/button.css);
-@import url(/src/assets/css/layout/card.css);
-@import url(/src/assets/css/layout/start-project.css);
+@import url(components/button.css);
+@import url(layout/card.css);
+@import url(layout/start-project.css);
+
+button {
+    border: none;
+    margin: 8px 0px;
+    padding: 10px 5px;
+    background-color: var(--Grey-700);
+    color: var(--white);
+    font-weight: var(--FW-700);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--Green);
+    color: var(--Grey-800)
+}
